@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(90deg, rgb(84, 84, 85) 0%, hsla(0, 0%, 89%, 1) 100%);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 100px;
+  font-family: "Rubik Maze", system-ui;
+}
+
+.logo {
+  font-size: 28px;
+  color: rgb(0, 0, 0);
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.575);
+  margin: 0;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  cursor: pointer;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.nav li:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.line {
+  height: 3px;
+  width: 90%;
+  background-color: rgba(0, 0, 0, 0.55);
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.575);
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 200px;
+}
+
+.text-block {
+  max-width: 700px;
+}
+
+.info {
+  font-family: "Chango", sans-serif;
+  font-size: 50px;
+  color: #000000;
+  text-shadow:
+    0 0 5px #9e9e9ec5,
+    0 0 10px #9e9e9ecb,
+    0 0 20px #9e9e9ec9,
+    0 0 40px #9e9e9ec9;
+  margin: 0 0 20px;
+}
+
+.desc {
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  color: rgb(20, 20, 20);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.main img {
+  width: 350px;
+  height: 600px;
+  border-radius: 16px;
+  border: 2px solid rgb(82, 82, 82);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.801);
+}
+.btn-black {
+  background-color: #000;
+  width: 220px;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-family: "Rubik Maze", system-ui;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 0 10px #000;
+}
+
+.btn-black:hover {
+  background-color: #222;
+}
+.timer {
+  background-color: #121212;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 10px;
+  width: 180px;
+  font-family: "Rubik Maze", system-ui;
+  box-shadow: 0 0 10px #000;
+  user-select: none;
+  margin-top: 16px;
+
+}
+
+.timer #sum {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.timer .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.timer button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.timer button:hover {
+  background-color: #222;
+}
